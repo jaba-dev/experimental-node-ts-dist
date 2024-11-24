@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2020",                       /* Set the JavaScript language version for emitted JavaScript. */
+    "module": "commonjs",                     /* Specify what module code is generated. */
+    "outDir": "./dist",                       /* Specify the output folder for compiled files. */
+    "rootDir": "./src",                       /* Specify the root folder of your source files. */
+    "strict": true,                           /* Enable all strict type-checking options. */
+    "esModuleInterop": true,                  /* Enable compatibility with CommonJS modules. */
+    "skipLibCheck": true,                     /* Skip type checking of declaration files. */
+    "forceConsistentCasingInFileNames": true, /* Enforce consistent casing in file imports. */
+
+    /* Source Map Options */
+    "sourceMap": true,                        /* Generate source maps for easier debugging. */
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",              /* Resolve modules in Node.js style. */
+    "resolveJsonModule": true,               /* Enable importing `.json` files. */
+
+    /* Emit Options */
+    "removeComments": true                   /* Remove comments from emitted JavaScript. */
+  },
+  "include": ["src/**/*.ts"],                /* Include all TypeScript files in the src folder. */
+  "exclude": ["node_modules", "dist"]        /* Exclude node_modules and build folder from compilation. */
+}
