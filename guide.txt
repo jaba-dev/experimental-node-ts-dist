@@ -1,4 +1,4 @@
 render.com
 1. roort directory: leave empty
-2. build command: npm run build
+2. build command: npm install && npm run build
 3. start command: node dist/index.js 

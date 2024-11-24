@@ -22,5 +22,4 @@
   },
   "include": ["src/**/*.ts"],                /* Include all TypeScript files in the src folder. */
   "exclude": ["node_modules", "dist"],        /* Exclude node_modules and build folder from compilation. */
-  "lib": ["ES2016", "DOM", "ESNext", "node"]
 }
